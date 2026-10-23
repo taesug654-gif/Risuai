@@ -463,7 +463,7 @@ async fn streamed_fetch(
     }
 
     let client = reqwest::Client::new();
-    let timeout_secs = timeout_secs.unwrap_or(240);
+    let timeout_secs = timeout_secs.unwrap_or(2400);
     let builder: reqwest::RequestBuilder;
     if method == "POST" {
 
