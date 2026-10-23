@@ -18,7 +18,7 @@
       "src-python/*"
     ],
     "targets": ["deb", "rpm", "appimage", "nsis", "app", "dmg"],
-    "createUpdaterArtifacts": true,
+    "createUpdaterArtifacts": false,
     "fileAssociations": [
       {
         "ext": [
